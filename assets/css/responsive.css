@@ -1,0 +1,161 @@
+/* ---------------------------------------------
+---------responsive desing big device--------------
+-------------------------------- ------------*/
+
+@media only screen and (max-width:1024px) {
+    .my-phone-section .my-phone-content .my-phone-content-box {
+        padding: 10px;
+    }
+    .my-phone-section .my-phone-content .my-phone-content-box .content-box {
+        font-size: 15px;
+    }
+}
+
+
+/* ---------------------------------------------
+---------responsive desing medium device----------
+-------------------------------- ------------*/
+
+@media only screen and (max-width:768px) {
+    .wrappper {
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    .meno-bar {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .features-section .features-heading h2 {
+        padding-bottom: 30px;
+    }
+    .features-section .features-content .feature-box {
+        width: 50%;
+        margin: auto;
+        font-size: 20px;
+    }
+    .features-section .features-content .feature-box:last-child {
+        width: 100%;
+    }
+    .my-phone {
+        margin: auto;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .my-phone img {
+        width: 300px;
+    }
+    .discuss-section .discuss-content .discuss-icon-box ul {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 15px;
+    }
+    .discuss-section {
+        padding-bottom: 0px;
+    }
+    .meno-scroll {
+        display: none;
+        z-index: 999999;
+        position: fixed;
+        top: 0px;
+        height: 60px;
+        margin: auto;
+        width: 100%;
+        border-radius: 4px;
+        background-color: rgb(117, 139, 214);
+    }
+}
+
+
+/* ---------------------------------------------
+-responsive desing langscript mobile device------
+-------------------------------- ------------*/
+
+@media only screen and (max-width:480px) {
+    .banar-container p:nth-child(1) {
+        font-size: 20px !important;
+    }
+    .banar-container p:nth-child(2) {
+        font-size: 25px !important;
+    }
+    .hero-section .banar-container {
+        padding: 100px 0px;
+    }
+    .features-section .features-content .feature-box {
+        width: 100%;
+        margin: auto;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .work-section .heading {
+        padding-bottom: 5px !important;
+    }
+    .fun-section {
+        padding: 20px !important;
+    }
+    .fun-section .heading {
+        padding: 0px;
+    }
+    .fun-section .heading h2 {
+        padding: 0px;
+        font-size: 25px;
+    }
+    .fun-section .fun-statics .single-statics {
+        padding: 30px;
+    }
+    .fun-section .fun-statics .single-statics .icon-box {
+        height: 75px;
+        width: 75px;
+    }
+    .fun-section .fun-statics .single-statics .icon-box i {
+        font-size: 30px;
+    }
+}
+
+
+/* ---------------------------------------------
+---------responsive for medium device----------
+-------------------------------- ------------*/
+
+@media only screen and (max-width:320px) {
+    .img-gallary .col-md-3 img {
+        width: 100% !important;
+    }
+    .team-section .heading h2 {
+        font-size: 25px;
+    }
+    .fun-section {
+        margin: 10px !important;
+    }
+    .fun-section .heading {
+        padding: 0px;
+    }
+    .fun-section .heading h2 {
+        padding: 0px;
+        font-size: 25px;
+    }
+    .meno-scroll {
+        height: 50px;
+    }
+    .mobile-menu-icon {
+        top: 7px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .img-gallary .i-box {
+        width: 100%;
+    }
+}
